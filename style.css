@@ -1,0 +1,39 @@
+/* Le conteneur qui englobe toute l'équipe */
+.team-container {
+    display: flex;            /* Active le mode Flexbox */
+    flex-direction: row;      /* Aligne les enfants horizontalement */
+    justify-content: center;  /* Centre l'équipe horizontalement dans la page */
+    gap: 40px;                /* Espace entre les deux membres */
+    flex-wrap: wrap;          /* Permet de passer à la ligne sur mobile */
+    padding: 20px;
+}
+
+/* Style de chaque bloc membre */
+.member-card {
+    text-align: center;       /* Centre le texte et l'image à l'intérieur du bloc */
+    width: 250px;             /* Largeur fixe pour l'harmonie */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Style des photos de profil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;        /* Évite de déformer l'image */
+    border-radius: 50%;       /* Rend l'image ronde */
+    margin-bottom: 10px;
+}
+
+/* Typographie */
+.titre {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 { color: #333; margin: 10px 0 5px; }
+h3 { color: #007bff; font-size: 1rem; margin-bottom: 10px; }
+p { color: #666; font-size: 0.9rem; }
+
