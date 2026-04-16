@@ -1,0 +1,23 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d2a44;
+    text-align: center;
+    color:green ;
+}
+ .h2{
+    padding: 30px;
+ }
+
+ .footer{
+padding: 25px;
+ }
+.button{
+display: flex; 
+padding: 30%;
+
+}
