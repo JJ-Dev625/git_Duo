@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Le conteneur qui englobe toute l'équipe */
 .team-container {
     display: flex;            /* Active le mode Flexbox */
@@ -37,3 +38,28 @@ h2 { color: #333; margin: 10px 0 5px; }
 h3 { color: #007bff; font-size: 1rem; margin-bottom: 10px; }
 p { color: #666; font-size: 0.9rem; }
 
+=======
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1d2a44;
+    text-align: center;
+    color:green ;
+}
+ .h2{
+    padding: 30px;
+ }
+
+ .footer{
+padding: 25px;
+ }
+.button{
+display: flex; 
+padding: 30%;
+
+}
+>>>>>>> feature-Jean-Junior
